@@ -8,4 +8,14 @@ class Calculator
     {
         return $a + $b;
     }
+
+    public function substract($a, $b)
+    {
+        return $a - $b;
+    }
+
+    public function fibonnaci($i)
+    {
+        return $i;
+    }
 }
